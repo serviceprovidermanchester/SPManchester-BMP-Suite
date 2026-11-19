@@ -1,0 +1,98 @@
+# ============================================================
+# PixelForge BMP Conversion Suite — .gitignore
+# SPManchester Private Limited
+# ============================================================
+
+# ───────────────────────────────────────────
+# OS-generated files
+# ───────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ───────────────────────────────────────────
+# Editor & IDE directories / files
+# ───────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+
+# ───────────────────────────────────────────
+# Logs
+# ───────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ───────────────────────────────────────────
+# Node.js (if tooling is ever added)
+# ───────────────────────────────────────────
+node_modules/
+.npm/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnp
+.pnp.js
+
+# ───────────────────────────────────────────
+# Build / dist outputs
+# ───────────────────────────────────────────
+dist/
+build/
+out/
+.output/
+
+# ───────────────────────────────────────────
+# Environment / secrets
+# ───────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# ───────────────────────────────────────────
+# Temporary & backup files
+# ───────────────────────────────────────────
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# ───────────────────────────────────────────
+# Testing & coverage
+# ───────────────────────────────────────────
+coverage/
+.nyc_output/
+*.lcov
+
+# ───────────────────────────────────────────
+# ZIP archives in project root
+# (batch download ZIPs are generated in-browser, not committed)
+# ───────────────────────────────────────────
+*.zip
+
+# ───────────────────────────────────────────
+# Miscellaneous
+# ───────────────────────────────────────────
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache

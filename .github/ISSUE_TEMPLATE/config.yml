@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: 🌐 SPManchester Official Website
+    url: https://www.spmanchester.com
+    about: Visit our website to learn more about SPManchester Private Limited and our projects.
+
+  - name: 📧 Contact Support
+    url: mailto:info@spmanchester.com
+    about: For general inquiries, support questions, or anything that doesn't fit a bug report or feature request, email us directly.

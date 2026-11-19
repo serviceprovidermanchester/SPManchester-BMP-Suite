@@ -1,0 +1,66 @@
+# ============================================================
+# GitHub Actions — Deploy to GitHub Pages
+# PixelForge BMP Conversion Suite
+# SPManchester Private Limited
+# ============================================================
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  # Allow manual trigger from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the
+# in-progress run and the latest queued one. However, do NOT cancel in-progress
+# runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # ─────────────────────────────────────────
+  # Build job — package the static site
+  # ─────────────────────────────────────────
+  build:
+    name: Build Static Site
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 📦 Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload the entire repository root as the site
+          # (pure static HTML/CSS/JS — no build step required)
+          path: "."
+
+  # ─────────────────────────────────────────
+  # Deploy job — publish to GitHub Pages
+  # ─────────────────────────────────────────
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: 🚀 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
