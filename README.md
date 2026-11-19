@@ -6,12 +6,12 @@
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
-[![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://YOUR-USERNAME.github.io/pixelforge-bmp-suite/)
-[![No Backend](https://img.shields.io/badge/Backend-None-orange?style=for-the-badge&logo=serverless)](https://YOUR-USERNAME.github.io/pixelforge-bmp-suite/)
+[![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://serviceprovidermanchester.github.io/SPManchester-BMP-Suite/)
+[![No Backend](https://img.shields.io/badge/Backend-None-orange?style=for-the-badge&logo=serverless)](https://serviceprovidermanchester.github.io/SPManchester-BMP-Suite/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![7 Tools](https://img.shields.io/badge/Tools-7%20Converters-purple?style=for-the-badge)](https://YOUR-USERNAME.github.io/pixelforge-bmp-suite/)
+[![7 Tools](https://img.shields.io/badge/Tools-7%20Converters-purple?style=for-the-badge)](https://serviceprovidermanchester.github.io/SPManchester-BMP-Suite/)
 
 <br/>
 
@@ -19,7 +19,7 @@
 
 <br/>
 
-[🚀 Live Demo](https://YOUR-USERNAME.github.io/pixelforge-bmp-suite/) · [🐛 Report Bug](https://github.com/YOUR-USERNAME/pixelforge-bmp-suite/issues/new?template=bug_report.md) · [✨ Request Feature](https://github.com/YOUR-USERNAME/pixelforge-bmp-suite/issues/new?template=feature_request.md) · [🤝 Contributing](CONTRIBUTING.md)
+[🚀 Live Demo](https://serviceprovidermanchester.github.io/SPManchester-BMP-Suite/) · [🐛 Report Bug](https://github.com/serviceprovidermanchester/SPManchester-BMP-Suite/issues/new?template=bug_report.md) · [✨ Request Feature](https://github.com/serviceprovidermanchester/SPManchester-BMP-Suite/issues/new?template=feature_request.md) · [🤝 Contributing](CONTRIBUTING.md)
 
 </div>
 
@@ -37,9 +37,7 @@ Where most online converters are single-format, ad-riddled, and server-dependent
 
 ## 🌐 Live Demo
 
-> 🔗 **[https://YOUR-USERNAME.github.io/pixelforge-bmp-suite/](https://YOUR-USERNAME.github.io/pixelforge-bmp-suite/)**
->
-> *(Replace `YOUR-USERNAME` with your GitHub username after forking)*
+> 🔗 **[https://serviceprovidermanchester.github.io/SPManchester-BMP-Suite/](https://serviceprovidermanchester.github.io/SPManchester-BMP-Suite/)**
 
 ---
 
@@ -106,16 +104,16 @@ flowchart TD
 
 ### Option 1 — Use the Live Demo
 
-Visit the [Live Demo](https://YOUR-USERNAME.github.io/pixelforge-bmp-suite/) directly. No installation required.
+Visit the [Live Demo](https://serviceprovidermanchester.github.io/SPManchester-BMP-Suite/) directly. No installation required.
 
 ### Option 2 — Run Locally
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR-USERNAME/pixelforge-bmp-suite.git
+git clone https://github.com/serviceprovidermanchester/SPManchester-BMP-Suite.git
 
 # 2. Navigate into the project
-cd pixelforge-bmp-suite
+cd SPManchester-BMP-Suite
 
 # 3. Open the suite hub in your browser
 # Simply double-click index.html, or:
@@ -131,45 +129,44 @@ That's it. **No `npm install`. No build step. No server required.**
 ## 📁 Project Structure
 
 ```
-pixelforge-bmp-suite/
+SPManchester-BMP-Suite/
 │
 ├── index.html                  # 🏠 Suite Hub — links to all 7 tools
 │
 ├── bmp-to-png/
 │   ├── index.html              # BMP → PNG converter
 │   ├── style.css
-│   └── script.js
+│   └── app.js
 │
 ├── bmp-to-jpg/
 │   ├── index.html              # BMP → JPG converter
 │   ├── style.css
-│   └── script.js
+│   └── app.js
 │
 ├── bmp-to-webp/
 │   ├── index.html              # BMP → WebP converter
 │   ├── style.css
-│   └── script.js
+│   └── app.js
 │
 ├── bmp-to-pdf/
 │   ├── index.html              # BMP → PDF converter
 │   ├── style.css
-│   ├── script.js
-│   └── jspdf.min.js           # Bundled jsPDF (no CDN dependency)
+│   └── app.js
 │
 ├── bmp-to-svg/
 │   ├── index.html              # BMP → SVG converter
 │   ├── style.css
-│   └── script.js
+│   └── app.js
 │
 ├── bmp-to-ico/
 │   ├── index.html              # BMP → ICO converter
 │   ├── style.css
-│   └── script.js
+│   └── app.js
 │
 ├── bmp-to-base64/
 │   ├── index.html              # BMP → Base64 converter
 │   ├── style.css
-│   └── script.js
+│   └── app.js
 │
 ├── LICENSE                     # MIT License
 ├── README.md                   # This file
@@ -193,7 +190,7 @@ pixelforge-bmp-suite/
 
 ### Using the Web Tool
 
-1. **Open the Suite Hub** — Navigate to [Live Demo](https://YOUR-USERNAME.github.io/pixelforge-bmp-suite/) or open `index.html` locally.
+1. **Open the Suite Hub** — Navigate to [Live Demo](https://serviceprovidermanchester.github.io/SPManchester-BMP-Suite/) or open `index.html` locally.
 2. **Select a Converter** — Click any of the 7 conversion tools.
 3. **Upload BMP Files** — Drag & drop or click *"Choose Files"* to select one or more `.bmp` images.
 4. **Configure Options** — Set quality (JPG), resize preset (original / 75% / 50% / 25% / custom), or format-specific settings.
@@ -223,7 +220,7 @@ The workflow at [`.github/workflows/pages.yml`](.github/workflows/pages.yml) dep
 1. Fork or push this repo to GitHub.
 2. Go to **Settings → Pages → Source** → Select **GitHub Actions**.
 3. Push a commit to `main`. The workflow deploys within ~60 seconds.
-4. Your site will be live at `https://YOUR-USERNAME.github.io/REPO-NAME/`.
+4. Your site will be live at `https://YOUR-USERNAME.github.io/SPManchester-BMP-Suite/`.
 
 **Method B — Classic `gh-pages` Branch**
 
@@ -247,7 +244,7 @@ The following enhancements are planned for future releases. Community contributi
 | 🟢 Low | **Dark Mode** | System-preference-aware `prefers-color-scheme` theming |
 | 🟢 Low | **i18n / Localization** | Internationalization support for non-English speaking users |
 
-> Track progress and vote on features in [GitHub Issues](https://github.com/YOUR-USERNAME/pixelforge-bmp-suite/issues).
+> Track progress and vote on features in [GitHub Issues](https://github.com/serviceprovidermanchester/SPManchester-BMP-Suite/issues).
 
 ---
 
@@ -263,7 +260,7 @@ We welcome contributions of all kinds — bug fixes, feature additions, document
 # 1. Fork the repository on GitHub
 
 # 2. Clone your fork
-git clone https://github.com/YOUR-USERNAME/pixelforge-bmp-suite.git
+git clone https://github.com/YOUR-USERNAME/SPManchester-BMP-Suite.git
 
 # 3. Create a feature branch (see branch naming conventions in CONTRIBUTING.md)
 git checkout -b feature/your-feature-name
@@ -322,7 +319,7 @@ SPManchester Private Limited is a software development company specialising in b
 
 If PixelForge BMP Suite saves you time or solves a problem, please consider giving it a ⭐ — it helps the project reach more developers who need it.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=YOUR-USERNAME/pixelforge-bmp-suite&type=Date)](https://star-history.com/#YOUR-USERNAME/pixelforge-bmp-suite&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=serviceprovidermanchester/SPManchester-BMP-Suite&type=Date)](https://star-history.com/#serviceprovidermanchester/SPManchester-BMP-Suite&Date)
 
 ---
 
@@ -333,7 +330,7 @@ If PixelForge BMP Suite saves you time or solves a problem, please consider givi
 
 - 🌐 [www.spmanchester.com](https://www.spmanchester.com)
 - 📧 [info@spmanchester.com](mailto:info@spmanchester.com)
-- 💼 [GitHub](https://github.com/YOUR-USERNAME)
+- 💼 [GitHub](https://github.com/serviceprovidermanchester)
 
 ---
 
